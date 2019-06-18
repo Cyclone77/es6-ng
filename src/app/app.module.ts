@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProxyComponent } from './proxy/proxy.component';
+import { AsyncComponent } from './async/async.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProxyComponent
+    ProxyComponent,
+    AsyncComponent
   ],
   imports: [
     BrowserModule,
